@@ -2,6 +2,8 @@
 
 friends=( "Marcus The Rich" "JJ The Short" "Timid Thomas" "Michelangelo The Mobster" )
 
+
+
 for name in "${friends[@]}"; do 
 
 	# My first friend (in the list).
