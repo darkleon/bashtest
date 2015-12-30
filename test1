@@ -2,21 +2,11 @@
 
 friends=( "Marcus The Rich" "JJ The Short" "Timid Thomas" "Michelangelo The Mobster" )
 
-for name in "${friends[@]}"; do 
 
 	# My first friend (in the list).
-	if [[ $name = "${friends[0]}" ]]; then
-		echo "$name is first"
 	
 	# My friends whose names start with M.
-	elif [[ $name = M* ]]; then
-		echo "$name start with M"
 
 	# My short friends.
-	elif [[ $name = *"Short"* ]]; then 
-		echo "$name is shorty"
+
 	# Friends I kind of didn't bother to remember.
-	else 
-		echo "$name not categorized"	
-	fi
-done
