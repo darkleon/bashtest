@@ -1,12 +1,17 @@
 #!/bin/bash
 
 friends=( "Marcus The Rich" "JJ The Short" "Timid Thomas" "Michelangelo The Mobster" )
-
+for name in "${friends[@]}"; do
 
 	# My first friend (in the list).
-	
+	if [[ $name == ${friends[0]} ]]; then
+		echo "$name is the first"
 	# My friends whose names start with M.
 
 	# My short friends.
 
 	# Friends I kind of didn't bother to remember.
+
+	fi
+
+done
